@@ -170,7 +170,7 @@ void updateInfo()
             }
             else if (choice == 2)
             {
-                printf("\n\t\t\tEnter User's ID to Update: ");
+                printf("\n\t\t\tEnter User's Aadhaar to Update: ");
                 getchar();
                 gets(tempInformation.UserAadhar);
                 strcpy(Info.UserAadhar, tempInformation.UserAadhar);
@@ -180,7 +180,7 @@ void updateInfo()
             }
             else if (choice == 3)
             {
-                printf("\n\t\t\tEnter User's Aadhaar to Update: ");
+                printf("\n\t\t\tEnter User's Vaccine to Update: ");
                 getchar();
                 gets(tempInformation.Vaccine_name);
                 strcpy(Info.Vaccine_name, tempInformation.Vaccine_name);
